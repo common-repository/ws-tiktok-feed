@@ -1,0 +1,301 @@
+.tkf-heading-inline {
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 23px;
+  font-weight: 400;
+  padding: 9px 0 4px;
+  line-height: 1.3;
+  color: #1d2327;
+}
+
+.tkf-hidden {
+  display: none!important;
+}
+
+.tkf-page-title.tkf-header {
+  width: 100%;
+  padding: 10px 0;
+}
+
+.column-avatar {
+  width: 90px;
+}
+
+.tkf-shortcode-input {
+  width: 200px;
+}
+
+.tkf-page-header {
+  position: relative;
+  width: 98%;
+  padding: 10px;
+  display: flex;
+  align-items: baseline;
+}
+
+.tkf-page-header h1 {
+  padding: 0;
+}
+
+.tkf-page-header .tkf_title_input {
+  padding: 3px 8px;
+  font-size: 1.7em;
+  line-height: 100%;
+  height: 1.5em;
+  width: 30%;
+  outline: 0;
+  margin: 0 0 3px;
+  background-color: #fff;
+}
+
+.tkf-empty {
+  flex-grow: 1;
+}
+
+.tkf_layout_section {
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.tkf_layout_section h3,
+#tkf_media_section h3,
+#tkf_settings_section h3{
+  border-bottom: 1px solid rgb(241, 241, 241);
+  font-size: 19px;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px 25px;
+  border-bottom: 1px solid #f1f1f1;
+  color: #444;
+  cursor: pointer;
+}
+
+.tkf_display_type_container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.tkf_display_type {
+  padding: 0 20px;
+}
+
+.tkf_display_type>div {
+  text-align: center;
+  padding: 2px;
+  box-sizing: border-box;
+}
+
+.tkf_feed_section {
+  width: 100%;
+  height: auto;
+  background-color: #FFFFFF;
+  border:1px solid #dedede;
+  margin-bottom: 20px;
+}
+
+.tkf_media_section_content {
+  display: flex;
+  padding: 25px;
+}
+
+.tkf_feed_section_content,
+.tkf_display_type_container {
+  padding: 25px;
+}
+
+.tkf_left {
+  width: 50%;
+}
+
+h4.tkf_sutitle {
+  font-size: 17px;
+  font-weight: 700;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+#tkf_media_section select.tkf_feed_user_account_select,
+input {
+  width: 300px;
+  height: 40px;
+  padding: 5px;
+  color: #8c8f94;
+}
+
+.tkf_feed_section_content input[type=checkbox] {
+  border: 1px solid #8c8f94;
+  border-radius: 4px;
+  background: #fff;
+  color: #50575e;
+  clear: none;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 0;
+  height: 1rem;
+  margin: -0.25rem 0.25rem 0 0;
+  outline: 0;
+  padding: 0!important;
+  text-align: center;
+  vertical-align: middle;
+  width: 1rem;
+  min-width: 1rem;
+  -webkit-appearance: none;
+  box-shadow: inset 0 1px 2px rgb(0 0 0 / 10%);
+  transition: .05s border-color ease-in-out;
+}
+
+.tkf_feed_section label {
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 5px 0;
+  margin-top: 20px;
+}
+
+.tkf_feed_section_content_advanced {
+  display: flex;
+}
+.tkf_feed_section_content_advanced>div {
+  width: 33.3%;
+  padding: 0 20px 0 0;
+}
+
+#tkf_settings_section input[type=number] {
+  width: 95px;
+  height: 32px;
+}
+
+#tkf_settings_section input[type=radio] {
+  margin-right: 0;
+}
+
+#tkf_settings_section .tkf_mini_label {
+  padding: 0 7px 0 2px;
+}
+
+
+.tkf_feed_thumb_dimansions {
+  display: flex;
+}
+
+.tkf_feed_thumb_dimansions span {
+  padding: 0 10px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.tkf_settings_orderby {
+  display: flex;
+}
+
+#tkf_settings_section select {
+  width: 145px;
+  height: 32px;
+}
+
+.tkf_settings_orderby select {
+  margin: 0 10px;
+  width: 150px;
+  height: 35px;
+}
+.tkf_settings_orderby select:first-child {
+  margin: 0;
+}
+
+.tkf_account_view_section {
+  display: flex;
+  align-items: center;
+  padding: 20px 30px;
+}
+
+.tkf_account_section {
+  width: 400px;
+}
+
+.tkf_account_section label {
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.tkf_account_section select {
+  width: 250px;
+  height: 35px;
+}
+
+p.description {
+  font-style: italic;
+}
+
+#tkf_save_feed_apply {
+  position: relative;
+  min-width: 65px;
+}
+
+.tkf_buttons {
+  position: relative;
+}
+
+.wp-core-ui .button-primary.tkf_loading {
+  background-color: rgba(19,94,150,0.5);
+  cursor: default;
+}
+
+.tkf_msg_success {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  padding: 3px 20px 3px 20px;
+  background-color: #00A32A;
+  color: #ffffff;
+  left: 0;
+  bottom: -20px;
+  box-sizing: border-box;
+}
+
+.tkf_msg_error {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  padding: 3px 20px 3px 20px;
+  background-color: #CC0C0C;
+  color: #ffffff;
+  left: 0;
+  bottom: -20px;
+  box-sizing: border-box;
+}
+
+.tkf_display_type img {
+  width: 100px;
+  height: auto;
+}
+
+.tkf_pro_notice {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+
+}
+
+.tkf_pro_notice p {
+  padding: 0;
+  margin: 0;
+}
+
+.tkf_pro_notice_cont {
+  position: absolute;
+  width: 140px;
+  height: auto;
+  background-color: #000000;
+  color: #fff;
+  opacity: 1;
+  padding: 10px;
+  text-align: left;
+  border-radius: 5px;
+  top: -42px;
+}
+

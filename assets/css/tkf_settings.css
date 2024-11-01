@@ -1,0 +1,172 @@
+#tkf-settings-page {
+  display: block;
+  background-color: #ffffff;
+  width: auto;
+  height: auto;
+  margin: 20px 20px 20px 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#tkf-settings-page h2 {
+  font-size: 22px;
+}
+
+.tkf-connect-button {
+  background-image: url(../images/tiktok_icon.png);
+  background-size: 50px;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: 0;
+  width: 330px;
+  height: 49px;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  color: #000000;
+  line-height: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 0px 0 0px 55px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+.tkf-description {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #323a45;
+}
+
+.tkf-connect-button:hover {
+  color: #000000;
+}
+
+.tkf-account-row {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 5px 20px;
+  background-color: #f0f0f1;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.tkf-account-header {
+  display: flex;
+  align-items: center;
+
+}
+
+.tkf-account-avatar img{
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.tkf-account-display-name {
+  font-size: 15px;
+  padding: 0 10px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.tkf-account-remove button,
+.tkf-refresh-token-button {
+  display: block;
+  padding: 9px 20px;
+  background: #fff 0 0 no-repeat padding-box;
+  border: 1px solid #dedede;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #32373c;
+  cursor: pointer;
+  height: auto!important;
+}
+
+.tkf-account-remove button:hover,
+.tkf-refresh-token-button:hover {
+  background: #f6f7f7;
+  border-color: #8c8f94;
+  box-shadow: none;
+  color: #0a4b78;
+}
+
+.tkf-account-openfull {
+  flex-grow: 1;
+  padding-left: 50px;
+}
+
+.tkf-account-openfull span {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border: 1px solid #dedede;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.tkf-account-row-content {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.tkf-account-row-content label,
+.tkf-account-row-content input {
+  display: block;
+  width: 100%;
+}
+
+.tkf-account-row-content label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  font-size: 15px;
+  color: #323a45;
+  margin-top: 20px;
+}
+
+.tkf-account-row-content input {
+  width: 100%;
+  max-height: 40px;
+  margin: 0;
+  padding: 10px 12px;
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  font-weight: 400;
+  font-size: 15px;
+  color: #323a45;
+}
+
+.tkf-message-error {
+  color: #CC0C0C;
+}
+
+.tkf-message-success {
+  color: #00A32A;
+}
+
+.tkf-message {
+  position: absolute;
+  bottom: 8px;
+  left: 110px;
+}
+
+.tkf-hidden {
+  display: none!important;
+}
+
+.tkf_loading {
+  background-color: rgba(19,94,150,0.5)!important;
+  cursor: default;
+}
